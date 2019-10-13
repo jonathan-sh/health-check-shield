@@ -20,7 +20,7 @@ For this demo I will use: <br/>
 
 #### step 1 - replace the parameters
 ```js
-`https://c1ncr9o0gj.execute-api.sa-east-1.amazonaws.com/default/health-api?kill_cache=1&app=google&https://www.google.com`
+`https://c1ncr9o0gj.execute-api.sa-east-1.amazonaws.com/default/health-api?kill_cache=1&app=google&url=https://www.google.com`
 ```
 
 #### step 2 - add into your readme
