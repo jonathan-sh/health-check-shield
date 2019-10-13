@@ -1,24 +1,27 @@
 {
-  "name": "health-check-shield",
-  "version": "1.0.0",
-  "description": "A simple project to check the health of the app and generate a shield.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jonathan-sh/health-check-shield.git"
-  },
-  "keywords": [
-    "health-check",
-    "healthcheck",
-    "shield"
-  ],
-  "author": "jonathan-sh",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jonathan-sh/health-check-shield/issues"
-  },
-  "homepage": "https://github.com/jonathan-sh/health-check-shield#readme"
+    "name": "health-check-shield",
+    "version": "1.0.0",
+    "description": "A simple project to check the health of the app and generate a shield.",
+    "main": "/src/index.js",
+    "scripts": 
+    {
+        "test": "node_modules/jest/bin/jest.js --detectOpenHandles test"
+    },
+    "repository": 
+    {
+        "type": "git",
+        "url": "git+https://github.com/jonathan-sh/health-check-shield.git"
+    },
+    "keywords": [ "health-check", "healthcheck", "shield" ],
+    "author": "jonathan-sh",
+    "license": "MIT",
+    "bugs": 
+    {
+        "url": "https://github.com/jonathan-sh/health-check-shield/issues"
+    },
+    "homepage": "https://github.com/jonathan-sh/health-check-shield#readme",
+    "devDependencies": 
+    {
+        "jest": "^24.9.0"
+    }
 }

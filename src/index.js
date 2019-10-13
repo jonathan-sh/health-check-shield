@@ -1,5 +1,7 @@
 const https = require('https');
+const svg_base = require('./svg-base.json');
 const shield_io = 'https://img.shields.io/static';
+
 
 const checkHealth = async (name, url) => 
 {
@@ -7,12 +9,12 @@ const checkHealth = async (name, url) =>
 
     if(!name && !response)
     {
-        response = getShield('heath check', 'app name not informed', 'blue');
+        response = svg_base['app_name_not_specified'];
     }
 
     if(!url && !response)
     {
-        response = getShield('heath check', 'app url not informed', 'blue');
+        response = svg_base['app_url_not_specified'];
     }
 
     if(!!name && !!url)
@@ -31,7 +33,7 @@ const checkAppUrl = (url) =>
         try 
         {
             https.get(url, (res) => resolve(res.statusCode===200))
-                 .on('error', () => resolve(false));    
+                 .on('error', (e) => resolve(false));
         } 
         catch (error) 
         {
