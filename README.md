@@ -25,7 +25,7 @@ For this demo I will use: <br/>
 
 #### step 2 - add into your readme
 ```md
-![[health-check][health-check-svg]
+![health-check][health-check-svg]
 
 <!-- alias -->
 [health-check-svg]: https://c1ncr9o0gj.execute-api.sa-east-1.amazonaws.com/default/health-api?kill_cache=1&app=google&url=https://www.google.com
