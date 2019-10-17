@@ -47,7 +47,7 @@ https://c1ncr9o0gj.execute-api.sa-east-1.amazonaws.com/default/health-api?kill_c
 [circle-ci-build]: https://circleci.com/gh/jonathan-sh/health-check-shield/tree/master
 [travis-ci-svg]: https://travis-ci.org/jonathan-sh/health-check-shield.svg?branch=master
 [travis-ci-build]: https://travis-ci.org/jonathan-sh/health-check-shield
-[shields.io]: [https://shields.io]
-[dog]: [https://httpstatusdogs.com/200-ok]
+[shields.io]: https://shields.io
+[dog]: https://httpstatusdogs.com/200-ok
 [good-case]: https://c1ncr9o0gj.execute-api.sa-east-1.amazonaws.com/default/health-api?kill_cache=1&app=google&url=https://www.google.com
 [bad-case]: https://c1ncr9o0gj.execute-api.sa-east-1.amazonaws.com/default/health-api?kill_cache=1&app=google&url=https://
